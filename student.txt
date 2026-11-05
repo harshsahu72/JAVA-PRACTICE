@@ -1,0 +1,14 @@
+Name: harsh kr
+Roll No: 1
+Marks: 85, 95, 75
+Total: 255
+Percentage: 85.0%
+Result: PASS
+------------------------
+Name: harsh
+Roll No: 1
+Marks: 20, 14, 65
+Total: 99
+Percentage: 33.0%
+Result: FAIL
+------------------------

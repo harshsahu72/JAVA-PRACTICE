@@ -6,6 +6,7 @@
 
 
 package Studentclassnov5;
+
 import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -19,7 +20,6 @@ class Student {
     double percentage;
     String result;
 
-    // Constructor
     Student(String name, int rollNo, int m1, int m2, int m3) {
         this.name = name;
         this.rollNo = rollNo;
@@ -28,7 +28,6 @@ class Student {
         this.m3 = m3;
     }
 
-    // Calculate total and percentage
     void calculate() {
         total = m1 + m2 + m3;
         percentage = total / 3.0;
@@ -40,9 +39,7 @@ class Student {
         }
     }
 
-    // Display student details
     void display() {
-        System.out.println("\n----- Student Details -----");
         System.out.println("Name: " + name);
         System.out.println("Roll No: " + rollNo);
         System.out.println("Marks 1: " + m1);
@@ -53,7 +50,6 @@ class Student {
         System.out.println("Result: " + result);
     }
 
-    // Save details in text file
     void saveFile() {
         try {
             FileWriter fw = new FileWriter("student.txt", true);
